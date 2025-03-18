@@ -43,13 +43,13 @@ Note: The index may vary based on how many stashes you have. You can check your 
 
 - git stash list
   
-With the Help of an Index Use Stash Pop Bring Back the home.html Page Changes
+6. With the Help of an Index Use Stash Pop Bring Back the home.html Page Changes
 
 Pop the stash for the home.html changes:
 
 - git stash pop stash@{2}
 
-Commit the Current Changes and Push Them
+7. Commit the Current Changes and Push Them
 
 Stage your changes:
 
