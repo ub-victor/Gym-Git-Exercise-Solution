@@ -1,58 +1,44 @@
-Purpose of the Exercise
+# Purpose of the Exercise
 This exercise is designed to familiarize you with basic Git and GitHub operations, which are essential for version control and collaborative software development. Understanding these concepts is crucial because:
 
-Version Control: Git allows you to track changes in your code, making it easier to manage different versions of your project.
-Collaboration: GitHub provides a platform for multiple developers to work on the same project simultaneously, facilitating collaboration.
-Branching: Branches allow you to work on features or fixes in isolation without affecting the main codebase, which is vital for maintaining a stable project.
-Steps to Complete the Exercise
-Create a Project Folder & Initialize Git
+1. Version Control: Git allows you to track changes in your code, making it easier to manage different versions of your project.
+2. Collaboration: GitHub provides a platform for multiple developers to work on the same project simultaneously, facilitating collaboration.
+3. Branching: Branches allow you to work on features or fixes in isolation without affecting the main codebase, which is vital for maintaining a stable project.
+# Steps to Complete the Exercise
+1. Create a Project Folder & Initialize Git
 
 Open VS Code.
 Create a new folder for your project (e.g., my-project).
 Open the terminal in VS Code (View > Terminal).
 Navigate to your project folder:
-bash
-Run
-Copy code
+
 cd path/to/my-project
-Initialize a Git repository:
-bash
-Run
-Copy code
-git init
-Make Changes to the Project (Add Files and Contents)
+- Initialize a Git repository:
+
+- git init
+2. Make Changes to the Project (Add Files and Contents)
 
 Create a new file (e.g., index.html) in your project folder and add some basic HTML content.
 You can also create a README.md file to describe your project.
-Rename Your Main Branch from master to main
+3. Rename Your Main Branch from master to main
 
 Check your current branch name:
-bash
-Run
-Copy code
-git branch
+
+- git branch
 If your branch is master, rename it to main:
-bash
-Run
-Copy code
-git branch -m master main
+
+- git branch -m master main
 If it’s already main, rename it to master and then back to main:
-bash
-Run
-Copy code
-git branch -m main master
-git branch -m master main
-Stage Your Changes and Commit Them
+
+- git branch -m main master
+- git branch -m master main
+4. Stage Your Changes and Commit Them
 
 Stage your changes:
-bash
-Run
-Copy code
+
 git add .
 Commit your changes:
-bash
-Run
-Copy code
+
 git commit -m "Initial commit"
 Create a GitHub Repo and Connect It with Your Project
 
