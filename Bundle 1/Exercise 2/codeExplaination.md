@@ -75,3 +75,27 @@ Reset the Current Changes Using Git Reset and Go Back to the Changes Without the
 - git reset HEAD~1
 
 This command will reset your working directory to the last commit, but since you have already popped the team.html changes, it will remove those changes from your working directory.
+
+
+# Stashing
+## Def
+    is super useful command that helps you save changes that you are not yet ready to commit. You can stash changes and then come back to them later.
+## git stash
+    Running git stash will take all uncommitted changes (staged and unstaged) and stash them , reverting the changes in your working copy 
+    > git stash  / you can also use git stash save instead 
+## git stash pop
+    Use git stash pop to remove the most recently stashed changed and re-apply them to your working copy
+## git Stash Apply
+    you can use git stash apply to apply whatever is stashed away, without removing it from the stash. This can be useful if you want to apply stashed changes to multiple branches.
+## git stash -u
+    If you have untracked files(Files that you have never checked in to Git), they will not be incuded in the stash
+
+    Fortunately, you use the -u option to tell git stash to include those untracked files. 
+## git stash list
+    By running it , the stashed list will be showed
+## git stash apply stash@{2}
+git assumes you want to appy the most recent stash when yourun git stash apply stasht@{2}
+
+## git stash drop stash@{2}
+
+    To delete a particular stash, you can use git stash drop @<stash-id>
