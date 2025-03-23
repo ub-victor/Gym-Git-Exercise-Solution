@@ -96,7 +96,7 @@ This command will reset your working directory to the last commit, but since you
 ## git stash apply stash@{2}
 git assumes you want to appy the most recent stash when yourun git stash apply stasht@{2}
 
-## git stash drop stash@{2}
+## git stash drop "stash@{2}"
 
     To delete a particular stash, you can use git stash drop @<stash-id>
 
