@@ -90,9 +90,12 @@ This command will reset your working directory to the last commit, but since you
     Use git stash pop to remove the most recently stashed changed and re-apply them to your working copy and if you do not only need the recent stashed one you can just write ## git stash pop "stash-id"
 
     Similar to git stash pop, this command applies a specific stash (in this case, the one identified as stash@{1}) to your working directory and then removes that specific stash from the list.
-    
+
 ## git Stash Apply
     you can use git stash apply to apply whatever is stashed away, without removing it from the stash. This can be useful if you want to apply stashed changes to multiple branches.
+
+    This command applies the most recent stashed changes to your working directory, but does not remove the stash from the stash list. It leaves the stash available for later use.
+    
 ## git stash -u
     If you have untracked files(Files that you have never checked in to Git), they will not be incuded in the stash
 
