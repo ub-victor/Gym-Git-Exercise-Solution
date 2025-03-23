@@ -23,7 +23,7 @@
    Understanding version control and how to document changes effectively.
 - Importance:
  Committing changes with meaningful messages helps in tracking project history and understanding the evolution of the codebase.
-Request a review and make sure your Pull Request gets merged:
+## 4. Request a review and make sure your Pull Request gets merged:
 
 - Skill Gained: 
 Collaboration and communication skills.
