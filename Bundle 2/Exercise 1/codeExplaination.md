@@ -1,31 +1,37 @@
-# Exercise 1
-## 1.  Create a new branch named ft/bundle-2:
+# Project Title
 
-- Command: git checkout -b ft/bundle-2
-- Purpose: This command creates a new branch and switches to it.
-- Skill Gained: Understanding how to isolate work on a new feature or fix without affecting the main codebase.
-- Importance: Branching allows multiple developers to work on different features simultaneously, reducing the risk of conflicts.
-## 2. Add new changes to your project. Create a new page named services.html and add some changes:
+## Exercise 1: Adding a Services Page
 
-- Skill Gained: Basic HTML/CSS skills and understanding of project structure.
-- Importance: Knowing how to create and modify files is fundamental for any developer.
-## 3. Commit your changes and create a Pull Request against the main branch in your GitHub repository:
+### Overview
+In this exercise, we will create a new page named `services.html` and manage our changes using Git branches and pull requests.
 
-- Commands:
-1. git add services.html
-2. git commit -m "Add services page"
-3. git push origin ft/bundle-2
-- Purpose:
-1. git add stages changes for commit.
-2. git commit saves the changes to the local repository with a message.
-3. git push uploads the branch to the remote repository.
-- Skill Gained:
-   Understanding version control and how to document changes effectively.
-- Importance:
- Committing changes with meaningful messages helps in tracking project history and understanding the evolution of the codebase.
-## 4. Request a review and make sure your Pull Request gets merged:
+### Steps
 
-- Skill Gained: 
-Collaboration and communication skills.
-- Importance:
- Code reviews improve code quality and foster knowledge sharing among team members.
+1. **Create a New Branch**
+   - Command: `git checkout -b <span class="tag">ft/bundle-2</span>`
+   - Description: Create a new branch for adding the services page.
+
+2. **Add Changes to Your Project**
+   - Create a new file named `services.html` and add some HTML content.
+   - Description: This page will provide information about the services offered.
+
+3. **Commit Your Changes**
+   - Commands:
+     - `git add services.html`
+     - `git commit -m "Add services page"`
+   - Description: Stage and commit your changes to the local repository.
+
+4. **Push Your Branch to GitHub**
+   - Command: `git push origin <span class="tag">ft/bundle-2</span>`
+   - Description: Upload your branch to the remote repository.
+
+5. **Create a Pull Request**
+   - Description: Open a PR for your changes against the `main` branch.
+
+6. **Request a Review**
+   - Description: Ask a colleague to review your PR and ensure it gets merged.
+
+### Tags
+- **Branching**: <span class="tag">ft/bundle-2</span>
+- **Main Branch**: <span class="tag">main</span>
+- **Pull Request**: <span class="tag">PR</span>
