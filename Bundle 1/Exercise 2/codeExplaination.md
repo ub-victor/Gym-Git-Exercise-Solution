@@ -95,7 +95,7 @@ This command will reset your working directory to the last commit, but since you
     you can use git stash apply to apply whatever is stashed away, without removing it from the stash. This can be useful if you want to apply stashed changes to multiple branches.
 
     This command applies the most recent stashed changes to your working directory, but does not remove the stash from the stash list. It leaves the stash available for later use.
-    
+
 ## git stash -u
     If you have untracked files(Files that you have never checked in to Git), they will not be incuded in the stash
 
@@ -111,3 +111,5 @@ git assumes you want to appy the most recent stash when you run git stash apply 
 
 ## git stash clear
      it is used to clear out all stashes, run git stash clear
+
+     This command removes all stashed changes from the stash list. It is a way to clean up your stash entirely, and it can't be undone.
