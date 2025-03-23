@@ -105,6 +105,8 @@ This command will reset your working directory to the last commit, but since you
 ## git stash apply stash@{2}
 git assumes you want to appy the most recent stash when you run git stash apply stasht@{2}
 
+When you stash changes to example.txt multiple times, each stash is assigned a unique ID (e.g., stash@{0}, stash@{1}), reflecting the state of the file at different points. Consequently, the newer stash will include all previous changes along with any new edits made after applying the earlier stash.
+
 ## git stash drop "stash@{2}"
 
     To delete a particular stash, you can use git stash drop @<stash-id>
