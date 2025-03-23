@@ -99,3 +99,6 @@ git assumes you want to appy the most recent stash when yourun git stash apply s
 ## git stash drop stash@{2}
 
     To delete a particular stash, you can use git stash drop @<stash-id>
+
+## git stash clear
+     it is used to clear out all stashes, run git stash clear
